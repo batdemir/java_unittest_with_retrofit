@@ -40,6 +40,8 @@ public class AppTest {
                     System.out.println("Person Id: \t" + personModel.getId() + "\n");
                     System.out.println("Person Name: \t" + personModel.getName() + "\n");
                     System.out.println("Person Surname: \t" + personModel.getSurName() + "\n");
+                    System.out.println("Person Email: \t" + personModel.getEmail() + "\n");
+
                 }
                 latch.countDown();
             }
